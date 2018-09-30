@@ -1,0 +1,6 @@
+sudo su
+cd /home/ec2-user
+wget https://github.com/tinkrbay/aws-metadata-php-page/archive/master.zip
+unzip master.zip
+mv aws-metadata-php-page-master/* /var/www/html/
+service httpd restart
